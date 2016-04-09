@@ -1,0 +1,19 @@
+{
+  "name"       : "beapi/simple-custom-css-cache",
+  "description": "Add a file cache on Simple Custom CSS plugin(https://wordpress.org/plugins/simple-custom-css/)",
+  "homepage"   : "https://github.com/BeAPI/simple-custom-css-cache",
+  "type"       : "wordpress-plugin",
+  "license"    : "GPL-3.0+",
+  "authors"    : [
+    {
+      "name"    : "Beapi",
+      "homepage"    : "technique@beapi.fr"
+    },
+    {
+      "name"    : "Nicolas Juen"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
