@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/BeAPI/simple-custom-css-cache
  * Description: Cache the Simple Custom CSS option to a real file
  * Author: Beapi
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 // Prevent direct file access
