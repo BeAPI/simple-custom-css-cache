@@ -12,7 +12,7 @@ if( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-require_once dirname( __FILE__ ) . '/cache.php';
+require_once dirname( __FILE__ ) . '/inc/cache.php';
 
 class SCSS_Cache{
 	/**
