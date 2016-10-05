@@ -1,4 +1,12 @@
-=== Simple Custom CSS Cache ===
+# Simple Custom CSS Cache #
+
+## Description ##
+
+Instead of loading WordPress on every page to get Simple Custom CSS values, create a real file and load it instead of
+Simple Custom CSS style.
+
+## Important to know ##
+
 Contributors: Rahe
 Requires at least: 3.0.1
 Tested up to: 4.5
@@ -7,11 +15,6 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Put Simple Custom CSS option to a real file
-
-== Description ==
-
-Instead of loading WordPress on every page to get Simple Custom CSS values, create a real file and load it instead of
-Simple Custom CSS style.
 
 == Installation ==
 PHP5 Required.
@@ -22,7 +25,7 @@ PHP5 Required.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions ##
 
 = Where the CSS file is written ? =
 
@@ -37,7 +40,12 @@ You can use the filter 'SCSS_Cache/folder_name' and change the folder name.
 
 Check if the folder wp-content/cache/scss is here and writable. If not so, then create it.
 
-== Changelog ==
+## Changelog ##
 
-= 1.0 =
-* Inital Release
+### 1.0.0
+* 9 April 2016
+* Initial
+
+### 1.0.1
+* 30 Jun 2016
+* Fix fatal error on activation
